@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* *  NAVBAR * */
+.wrapper-nav {
+    margin: 0 13%;
+}
+
+.heading-xxxs {
+    font-size: .6875rem;
+    font-weight: 500;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+}
+
+.navbar-bottom {
+    padding: 1.5rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.nav-link {
+    color: #1f1f1f;
+    font-weight: 500;
+
+}
+
+.nav-link i {
+    font-size: 14px;
+}
+
+.text-gray-350 {
+    color: #909090 !important;
+}
+
+/* * BANNER * */
+
+.heading-xxs {
+    font-size: .9125rem;
+    font-weight: 500;
+}
+
+/* * CATEGORY* */
+.bg-cover {
+    background-position: 50% !important;
+}
+
+.wrapper-card {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.wrapper-tile {
+    margin-bottom: 30%;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-btn {
+    margin-top: 100px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-title {
+    font-weight: 600 !important;
+    font-size: 2.75rem;
+}
+
+.btn-white {
+    background-color: #fff;
+    border-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #1f1f1f;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 0.875rem 1.75rem;
+    text-align: center;
+}
+
+/* FEATUREAS */
+
+
+.section-features {
+    margin: 0 88px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5 !important;
+}
+
+.section-features i {
+    color: red;
+}
+
+/* BEST PICKS */
+.text-gray-400 {
+    color: #909090 !important;
+}
+
+.section-picks {
+    margin: 7% 13%;
+
+}
+
+.wrapper-card-body {
+    padding: 140px 0;
+    margin: 0;
+}
+
+/* TOP SELLER */
+.section-seller {
+    margin: 7% 13%;
+}
+
+.card-seller {
+    border: none;
+}
+
+/* 
+.card {
+    border: none;
+} */
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: #767676 !important;
+    font-size: 16px;
+}
+
+.text-body {
+    color: #1f1f1f;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.link-underline {
+    color: #1f1f1f;
+    display: inline-block;
+    font-weight: 500;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+/* COUNT DOWN */
+
+
+.bg-cover {
+    background-image: url(../img/cover-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.text-time {
+    font-size: 3rem;
+    color: red;
+}
+
+.btn-dark {
+    border-radius: unset;
+    /* padding: 0 20px; */
+}
+
+/* REVIEWS */
+.checked {
+    color: orange;
+}
+
+.fs-xxs {
+    font-size: .8125rem !important;
+}
+
+.card-header {
+    border-bottom: none !important;
+}
+
+
+.border {
+    border: 1px solid #e5e5e5 !important;
+}
+
+.section-reviews {
+    margin: 7% 13%;
+}
+
+/* END REVIEWS */
+
+
+/* BRANDS */
+.section-brands {
+    background-color: #f5f5f5;
+}
+
+/* END BRANDS */
+
+
+/* FOOTER */
+h5 {
+    font-size: 1.5rem;
+}
+
+.form-control {
+    border-radius: unset !important;
+}
+
+.form-control-lg,
+.btn-lg {
+    font-size: 1rem;
+}
+
+.form-control-gray {
+    background-color: #303030;
+    border-color: #303030;
+    color: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.btn-gray-500 {
+    background-color: #525252;
+    border-color: #525252;
+    color: #fff;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.wrapper-footer-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #535353 !important;
+}
+
+.heading-xxs {
+    font-size: .8125rem;
+}
+
+/* END FOOTER */
+
+
+
+
+
+/* MEDIA QUERY */
+
+
+@media (max-width: 575.98px) {
+    .section-features {
+        margin: 0;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .img-3 {
+        display: none;
+    }
+
+    .wrapper-nav {
+        margin: 0;
+    }
+
+    .section-picks {
+        margin: 7% 0;
+
+    }
+
+    .section-seller {
+        margin: 7% 0;
+    }
+
+
+
+}
+
+@media (max-width: 767.98px) {
+
+    .section-picks {
+        margin: 7% 0;
+
+    }
+
+    .section-features {
+        margin: 0;
+    }
+
+
+}
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    .wrapper-nav {
+        margin: 0;
+    }
+
+    .img-2 {
+        display: none;
+    }
+
+    .img-3 {
+        display: none;
+    }
+
+
+
+}
